@@ -335,7 +335,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - u<sup>\<t></sup> is also the same dimensions of a<sup>\<t></sup>
 - The multiplication in the equations are element wise multiplication.
 - What has been descried so far is the Simplified GRU unit. Let's now describe the full one:
-  - The full GRU contains a new gate that is used with to calculate the candidate C. The gate tells you how relevant is C<sup>\<t-1></sup> to C<sup>\<t></sup>
+  - The full GRU contains two new gates (U - Update Gate, R - Relevance Gate) that is used with to calculate the candidate C. The gate tells you how relevant is C<sup>\<t-1></sup> to C<sup>\<t></sup>
   - Equations:   
     ![](Images/20.png)
   - Shapes are the same
